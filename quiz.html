@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trivia Quiz Game</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Trivia Quiz Game</h1>
+      <p>Answer each question in up to 3 tries and earn points.</p>
+    </header>
+
+    <main>
+      <section class="results">
+        <h2>Your Quiz Results</h2>
+        <p id="score-output"></p>
+      </section>
+
+      <section class="instructions">
+        <h2>How Scoring Works</h2>
+        <ul>
+          <li>First try correct = 3 points</li>
+          <li>Second try correct = 2 points</li>
+          <li>Third try correct = 1 point</li>
+          <li>No correct answer in 3 tries = 0 points</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Gaushik's Quiz Game</p>
+    </footer>
+  </div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
